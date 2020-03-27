@@ -8,9 +8,9 @@ session_start();
       
          $_SESSION['login_user'] = $userid;
          
-         header("Location: page2.php");
+         header("Location: https://austradehr-sharepointsuppliers.herokuapp.com/page2.php");
       }else {
-        header("Location: page.php");
+        header("Location: https://austradehr-sharepointsuppliers.herokuapp.com/page.php");
       }
 ?>
 
