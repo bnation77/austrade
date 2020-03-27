@@ -2,7 +2,7 @@
 
 session_start();
    
-     $userid = $_GET['em'];
+     $userid = $_POST['em'];
 		
       if(!empty($userid)){
       
